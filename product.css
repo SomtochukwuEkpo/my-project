@@ -1,0 +1,437 @@
+*{
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: -20px;
+}
+li{
+    display: inline;
+    font-size: 25px;
+    padding: 20px;
+}
+.home{
+  width: 50px;
+  height: 50px; 
+  position: relative;
+  right: -140px; 
+}
+.cart{
+  width: 50px;
+  height: 50px;  
+}
+.butt1{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: 5px solid rgb(51, 187, 51);
+    font-size: 20px;
+    position: relative;
+    right: -120px;
+}
+.butt2{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(51, 187, 51);
+    color: white;
+    border: none;
+    font-size: 20px;
+    position: relative;
+    left: -55px;
+}
+.pro1{
+    height: 900px;
+    background-color: white;
+    display: flex;
+}
+.pro1a{
+    height: 900px;
+    background-color: white;
+    width: 900px;
+    position: relative;
+    right: -30px;
+}
+.butt3{
+    width: 250px;
+    height: 50px;
+    border: none;
+    background-color: rgb(51, 187, 51);
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    position: relative;
+    bottom: -80px;
+}
+.pro1b{
+    height: 800px;
+    background-color: white;
+}
+.item{
+    height: 1050px;
+    background-color: white;
+    position: relative;
+    right: -250px;
+    bottom: -50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 350px 350px 350px;
+    gap: 5px;
+    transform: rotate(30deg);
+
+}
+.item1{
+    background-color: green;
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.item2{
+    background-color: rgb(223, 184, 111);
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.item3{
+    background: linear-gradient(white,rgb(57, 162, 57));
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.item4{
+    background-color: rgb(2, 27, 2);
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+/* .item5{
+    background-color: red;
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.item6{
+    background-color: red;
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+} */
+
+.fritos{
+    width: 280px;
+    height: 300px;
+    position: relative;
+    left: -40px;
+    bottom: -20px;
+}
+.pringles{
+    width: 450px;
+    height: 300px;
+    position: relative;
+    left: -130px;
+    bottom:-20px;
+}
+.gvb{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: -80px;
+}
+.dove{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: -80px;
+}
+.pro2{
+    display: flex;
+    background-color: white;
+    height: 750px;
+}
+.pro2a{
+    width: 700px;
+    height: 700px;
+    background-color: white;
+}
+.pro2b{
+    width: 700px;
+    height: 700px;
+    background-color: white;
+}
+.pro2c{
+    width: 700px;
+    height: 700px;
+    background-color: white;
+}
+.doritos{
+    width: 400px;
+    height: 400px;
+}
+.alive{
+    width: 400px;
+    height: 400px;
+}
+.soulless{
+    width: 400px;
+    height: 400px;
+}
+.butt4{
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(51, 187, 51);
+    border: none;
+    position: relative;
+    right: -220px;
+    top: -90px;
+}
+.butt5{
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(51, 187, 51);
+    border: none;
+    position: relative;
+    right: -220px;
+    top: -90px;
+}
+.butt6{
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(51, 187, 51);
+    border: none;
+    position: relative;
+    right: -220px;
+    top: -90px;
+}
+.pro3{
+    height: 550px;
+    background-color: rgb(51, 187, 51);
+    position: relative;
+    top: -30px;
+}
+.pro3s{
+    display: flex;
+    height: 550px;
+    background-color: rgb(51, 187, 51);
+    justify-content: space-evenly;
+    position: relative;
+    bottom: -100px;
+}
+.pro3a{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(133, 81, 81);
+    border-radius: 100%;
+}
+.pro3b{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 100%;
+}
+.pro3c{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(223, 184, 111);
+    border-radius: 100%;
+}
+.pro3d{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 100%;
+}
+.food{
+    width: 500px;
+    height: 350px;
+}
+.ceylon{
+    width: 250px;
+    height: 350px;
+    position: relative;
+    right: -100px;
+    bottom: -30px;
+}
+.pillsbury{
+    width: 400px;
+    height: 250px;
+    position: relative;
+    bottom: -60px;
+    transform: rotate(10deg);
+}
+.spice{
+    width: 500px;
+    height: 350px;
+    position: relative;
+    bottom: -20px;
+}
+.pro4{
+    background-color: white;
+    height: 600px;
+}
+.pro4s{
+    background-color: white;
+    width: 1600px;
+    height: 600px;
+    display: flex;
+    position: relative;
+    right: -200px;
+    bottom: -70px;
+   
+}
+.pro4a{
+    background-color: white;
+    height: 600px;
+    width: 1000px;
+}
+.pro4b{
+    background-color: white;
+    width: 800px;
+    height: 600px;
+}
+.cheerios{
+    position: relative;
+    bottom: -100px;
+}
+.pro5{
+    height: 650px;
+    background-color: rgb(227, 223, 223);
+    display: flex;
+}
+.pro5a{
+    height: 650px;
+    width: 750px;
+    background-color: rgb(227, 223, 223);
+    position: relative;
+    right: -250px;
+  
+    
+
+}
+.pro5a1{
+    width: 700px;
+    height: 350px;
+    background-color: rgb(239, 236, 236);
+    border-radius: 20px;
+}
+.pro5a2{
+    width: 700px;
+    height: 250px;
+    background-color: white;
+    position: relative;
+    bottom: -2px;
+    border-radius: 20px;
+}
+.pro5b{
+    width: 1000px;
+    height: 650px;
+    background-color: rgb(227, 223, 223);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 5px;
+    position: relative;
+    right: -250px;
+}
+.pro5b1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgb(250, 229, 229);
+}
+.pro5b2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+    left: -40px;
+}
+.pro5b3{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgb(250, 229, 229);
+}
+.pro5b4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+    left: -40px;
+}
+.pulpy{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: -30px;
+}
+.eva{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: -55px;
+}
+.peanut{
+    width: 300px;
+    height: 250px;
+    position: relative;
+    left: -55px;
+    bottom: -30px;
+}
+.pro6{
+    background-color: rgb(51, 187, 51);
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pro6a{
+    width: 430px;
+    height: 500px;
+    background-color: rgb(51, 187, 51);
+}
+.pro6b{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(51, 187, 51);
+}
+.pro6c{
+    width: 430px;
+    height: 500px;
+    background-color: rgb(51, 187, 51);
+}
+.pro6d{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(51, 187, 51);
+}
+h3{
+    color: white;
+    position: relative;
+    bottom: -80px;
+}
